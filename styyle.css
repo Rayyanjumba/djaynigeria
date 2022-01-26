@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(yeah!!!/pexels-the-glorious-studio-9953654.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-box{
+    width: 590px;
+    background:rgba(0,0,0,0.8);
+    margin: 12% auto;
+    padding: 50px 0;
+    color: #fff;
+    box-shadow:0 0 20px 2px rgba(0,0,0,0.5);
+}
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.Input-box{
+    text-align: center;
+    margin:31px auto;
+    width:80%;
+    border-bottom: bottom 1px solid #fff;
+    padding-top:10px ;
+    padding-bottom: 5px;
+}
+.input-box{
+    text-align: center;
+    margin: 15px auto;
+    width:80%;
+    border-bottom: bottom 1px solid #fff;
+    padding: top 12px;
+    padding-bottom: 5px;
+
+}
+.input-box{
+    width: 90%;
+    border: none;
+    outline:none;
+    background: transparent;
+    color:#fff;
+}
+.Input-box{
+    width:89% ;
+    border:none;
+    outline: none;
+    background:transparent;
+    color: #fff;
+
+}
+.menu{
+    width: 440px;
+    float: left;
+    height: 70px;
+}
+ul{
+       
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    background:#0c0b0a;
+    color:rgb(207, 204, 198) ;
+    font-family: sans-serif;
+     font-weight: lighter;
+    transition: 0.4 ease-in-out;
+    
+}
+ul li a:hover{
+    color:rgb(160, 49, 49);
+}
+.row{
+    float: right;
+    margin-right: 10px;
+    margin-top: 12px;
+    font-family:  'Times New Roman';
+    text-align: left;
+    color:#fff;
+}
+
+::placeholder{
+    color: rgb(95, 90, 90);
+}
+.fa{
+    margin-right: 10px;
+}
+.eye{
+    position: absolute;
+}
+#hide1{
+    display: none;
+}
+.login-btn{
+    text-align: center;
+    margin: 45px auto 20px;
+    width: 50%;
+    display: block;
+    outline: none;
+    padding: 10px 0;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background: #fff;
+    font-size: 18px;
+}
+

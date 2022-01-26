@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My log in page</title>
+        <link rel="stylesheet" href="styyle.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+        </head>
+        <body>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Account</a></li>
+
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Shopping just got better</h1>
+                </div>
+                <div class="col-2">     
+                </div>
+            </div>
+            
+            <div class="form-box">
+                <h1> Welcome to Coupe Nigeria</h1>
+                <h1>Create Account</h1>
+                <div class="Input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Username or E-mail">
+                </div>
+                <div class="input-box">
+                    <i class="fas fa-key"></i>
+                    <input type="password" placeholder="Password" id="myinput">
+                    
+                <span class="eye" onclick="myfunction">
+                    <i id="hide1" class="fas fa-eye"></i>
+                    <i id="hide2" class="fas fa-eye-slash"></i>
+                   </span>
+             </div>
+<button type="button" class="login-btn">Log in</button>
+            </div>
+        <script>
+            function myfunction(){
+                var x=document.getElementById("myinput");
+                var y=document.getElementById("hide1");
+                var z=document.getElementById("hide2");
+
+                if(x.type === "password"){
+                    x.type = "text";
+                    y.style.display = "block";
+                    z.style.display ="none";
+                }
+                else{
+                    x.type = "password"
+                    y.style.display = "none"
+                    z.style.display = "block"
+                }
+
+            }
+        </script>
+        </body>
+
+ 
+</html>
